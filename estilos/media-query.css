@@ -1,10 +1,44 @@
 @charset "UTF-8";
 
 /*Telas Menores*/
+@media screen and (min-width:240px) and (max-width:320px) {
+    section#login{
+        height:100%;
+        width:100%;
+    }
+    section#login > div#imagem{
+        height: 0vh;
+        width: 110vw;
+    }
+    
+}
+
 @media  screen and (min-width:360px) and (max-width:768px) {
     section#login{
         width: 80vw;
         height: 90vh;
+    }
+    section#login > div#imagem{
+        height: 40vh;
+    } 
+}
+
+@media screen and (min-width:360px) and (max-width:740px) {
+    section#login{
+        height:82vh
+    }
+}
+
+@media  screen and (min-width:393px) and (max-width:852px) {
+    section#login{
+        height:77vh;
+    }
+    
+}
+
+@media screen and (min-width:412px) and (max-width:823px) {
+    section#login {
+        height: 77vh;
     }
     
 }

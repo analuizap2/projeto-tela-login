@@ -50,7 +50,7 @@ section#login >  div#imagem{
     background-image: url(../imagens/imagem-de-fundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 250px;
+    height: 450px;
 }
 section#login > div#formulario{
     display: block;
