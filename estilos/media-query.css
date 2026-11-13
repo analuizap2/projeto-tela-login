@@ -25,7 +25,7 @@
 
 @media screen and (min-width:360px) and (max-width:740px) {
     section#login{
-        height:82vh
+        height:88vh
     }
 }
 
@@ -39,6 +39,17 @@
 @media screen and (min-width:412px) and (max-width:823px) {
     section#login {
         height: 77vh;
+    }
+    
+}
+
+@media  screen and (min-width:712px) and (max-width:1138px) {
+    section#login{
+        height: 70vh;
+    }
+    div#formulario > p{
+        font-size: 1.1em;
+        text-align: justify;
     }
     
 }
